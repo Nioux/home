@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="bookmarks-bootstrap.xsl"?>
+<bms>
+	<cat title="Home" id="home">
+		<subcat title="Google+">
+			<bm href="https://mail.google.com/mail/?tab=wm#inbox" limg="logos/gmail-large.png">GMail</bm>
+			<bm href="https://drive.google.com/" limg="logos/google-drive.png">Drive</bm>
+			<bm href="https://www.google.com/calendar/" limg="logos/google-calendar.png">Agenda</bm>
+			<bm href="https://www.google.com/contacts/" limg="logos/google-contacts.png">Contacts</bm>
+			<bm href="https://photos.google.com/" limg="logos/gphotos.png">Photos</bm>
+			<bm href="https://picasaweb.google.fr/home" limg="logos/picasa-large.png">Picasa</bm>
+			<bm href="https://keep.google.com/" limg="logos/keep.png">Keep</bm>
+		</subcat>
+		<subcat title="Live">
+			<bm href="https://mail.live.com/" limg="logos/outlook-large.png">Outlook</bm>
+			<bm href="https://onedrive.live.com/" limg="logos/onedrive-large.png">OneDrive</bm>
+			<bm href="https://calendar.live.com/" limg="logos/live-calendar.png">Calendar</bm>
+			<bm href="https://people.live.com/" limg="logos/live-contacts.png">Contacts</bm>
+			<bm href="https://familysafety.microsoft.com/" limg="logos/familysafety.png">Family Safety</bm>
+			<bm href="https://to-do.live.com/tasks/" limg="logos/todo.png">TODO</bm>
+			<bm href="https://wunderlist.com/" limg="logos/wunderlist.png">Wunderlist</bm>
+		</subcat>
+		<subcat title="Google">
+			<bm href="https://www.google.fr/" limg="logos/google-large.png">Recherche</bm>
+			<bm href="https://news.google.fr/" limg="logos/google-news.png">News</bm>
+			<bm href="https://maps.google.fr/" limg="logos/google-maps.png">Maps</bm>
+			<bm href="https://www.youtube.com/" limg="logos/youtube.png">YouTube</bm>
+		</subcat>
+		<subcat title="Bing / MSN">
+			<bm href="https://www.bing.com/" limg="logos/bing-large.png">Recherche</bm>
+			<bm href="https://www.bing.com/news/" limg="logos/bing-news.png">News</bm>
+			<bm href="https://www.msn.com/" limg="logos/msn-large.png">MSN</bm>
+			<bm href="https://www.bing.com/maps/" limg="logos/bing-maps.png">Maps</bm>
+		</subcat>
+		<subcat title="News">
+			<bm href="https://www.20minutes.fr/" iref="http://iphone.20minutes.fr/" limg="logos/20minutes-large.png">20 minutes</bm>
+			<bm href="https://www.lemonde.fr/" iref="http://mobile.lemonde.fr/" limg="logos/lemonde-large.png">Le Monde</bm>
+			<bm href="https://www.liberation.fr/" iref="http://iphone.liberation.fr/" limg="logos/liberation-large.png">Libération</bm>
+			<bm href="http://www.lefigaro.fr/" iref="http://iphone.lefigaro.fr/" limg="logos/lefigaro-large.png">Le Figaro</bm>
+			<bm href="https://www.marianne.net/" iref="http://m.marianne.net/" limg="logos/marianne-large.png">Marianne</bm>
+			<bm href="https://www.lavoixdunord.fr/" limg="logos/lavoixdunord-large.png">La Voix du Nord</bm>
+		</subcat>
+		<subcat title="Social">
+			<bm href="https://www.facebook.com/" limg="logos/fcbk-large.png">Facebook </bm>
+			<bm href="https://twitter.com/" limg="logos/twttr-large.png">Twitter </bm>
+			<bm href="https://www.linkedin.com/" iref="http://m.linkedin.com/" limg="logos/lnkdn-large.png">Linked-in </bm>
+			<bm href="https://copainsdavant.linternaute.com/" limg="logos/copainsdavant-large.png">Copains d'Avant</bm>
+			<bm href="https://www.viedemerde.fr/" iref="http://iphone.viedemerde.fr/" limg="logos/vdm-large.png">Vie de merde</bm>
+		</subcat>
+	</cat>
+	<cat title="Net" id="internet">
+		<subcat title="News">
+			<bm href="https://www.01net.com/" limg="logos/01net-large.png">01net.com</bm>
+			<bm href="https://www.zdnet.fr/" limg="logos/zdnet-large.png">ZDnet.fr</bm>
+			<bm href="https://www.clubic.com/" limg="logos/clubic-large.png">Clubic</bm>
+			<bm href="https://www.nextinpact.com/" limg="logos/nextinpact-large.png">Next Inpact</bm>
+			<bm href="https://www.numerama.com/" limg="logos/numerama-large.png">Numérama</bm>
+		</subcat>
+		<subcat title="Téléchargements">
+			<bm href="https://www.01net.com/telecharger/" limg="logos/01net-large.png">01net</bm>
+			<bm href="https://www.zdnet.fr/telecharger/windows/" limg="logos/zdnet-large.png">ZDNet</bm>
+			<bm href="https://www.clubic.com/download/" limg="logos/clubic-large.png">Clubic</bm>
+			<bm href="https://alternativeto.net/" limg="logos/alternativeto-large.png">alternativeTo</bm>
+			<bm href="https://www.framasoft.net/" limg="logos/framasoft.png">Framasoft</bm>
+		</subcat>
+		<subcat title="Recherche">
+			<bm href="https://archive.org/web/" limg="logos/internetarchive-large.png">Internet Archive</bm>
+			<bm href="https://www.google.fr/" limg="logos/google-large.png">Google</bm>
+			<bm href="https://duckduckgo.com/" limg="logos/duckduckgo-large.png">Duck Duck Go</bm>
+			<bm href="https://www.qwant.com/" limg="logos/qwant.png">Qwant</bm>
+			<bm href="https://www.qwantjunior.com/" limg="logos/qwantjunior.png">Qwant Junior</bm>
+			<bm href="https://www.bing.com/" limg="logos/bing-large.png">Bing</bm>
+			<bm href="https://xooloo.fr/" limg="logos/xooloo-large.png">Xooloo</bm>
+		</subcat>
+		<subcat title="Host">
+			<bm href="https://www.gandi.net/" limg="logos/gandi-large.png">Gandi</bm>
+			<bm href="https://www.ovh.com/" limg="logos/ovh-large.png">OVH</bm>
+			<bm href="https://owncloud.org/" limg="logos/owncloud-large.png">OwnCloud</bm>
+			<bm href="https://cozy.io/" limg="logos/cozy.png">My Cozy Cloud</bm>
+			<bm href="https://weboob.org/" limg="logos/weboob-large.png">Weboob</bm>
+		</subcat>
+		<subcat title="Sécurité">
+			<bm href="http://www.hoaxbuster.com/" limg="logos/hoaxbuster-large.png">Hoaxbuster</bm>
+			<bm href="https://keepass.info/" limg="logos/keepass-large.png">KeePass</bm>
+			<bm href="http://www.truecrypt.org/" limg="logos/truecrypt-large.png">TrueCrypt</bm>
+		</subcat>
+		<subcat title="Encyclopédies">
+			<bm href="https://fr.wikipedia.org/" iref="http://fr.m.wikipedia.org/" limg="logos/wikipedia-large.png">Wikipedia</bm>
+			<bm href="https://fr.vikidia.org/" limg="logos/vikidia-large.png">Vikidia</bm>
+			<bm href="https://europeana.eu/portal/" limg="logos/europeana-large.png">Europeana</bm>
+		</subcat>
+	</cat>
+	<cat title="Devs" id="devices">
+		<subcat title="News">
+			<bm href="https://www.minimachines.net/" limg="logos/minimachines-large.png">MiniMachines</bm>
+			<bm href="https://www.lesnumeriques.com/" limg="logos/lesnumeriques-large.png">Les Numériques</bm>
+			<bm href="https://www.xda-developers.com/" limg="logos/xda-large.png">XDA</bm>
+			<bm href="https://lineageos.org/" limg="logos/cyanogen-large.png">LineageOS</bm>
+			<bm href="http://www.iphon.fr/" iref="http://m.iphon.fr/" limg="logos/iphonfr-large.png">iPhon.fr</bm>
+		</subcat>
+		<subcat title="Opérateurs">
+			<bm href="https://www.orange.fr/" limg="logos/orange-large.png">Orange</bm>
+			<bm href="https://www.sosh.fr/" limg="logos/sosh-large.png">Sosh</bm>
+			<bm href="http://www.numericable.fr/" limg="logos/numericable-large.png">Numericable</bm>
+			<bm href="http://www.generationcable.net/" limg="logos/generationcable-large.png">Génération Câble</bm>
+			<bm href="http://www.free.fr/" limg="logos/free-large.png">Free</bm>
+			<bm href="http://mobile.free.fr/" limg="logos/freemobile-large.png">Free Mobile</bm>
+		</subcat>
+		<subcat title="PC">
+			<bm href="http://www.dell.fr/" limg="logos/dell-large.png">Dell</bm>
+			<bm href="http://www.shuttle.eu/fr/" limg="logos/shuttle-large.png">Shuttle</bm>
+			<bm href="http://www.acer.fr/" limg="logos/acer-large.png">Acer</bm>
+			<bm href="http://fr.asus.com/" limg="logos/asus-large.png">Asus</bm>
+			<bm href="http://www8.hp.com/fr/fr/home.html" limg="logos/hp.png">HP</bm>
+		</subcat>
+		<subcat title="Mobiles">
+			<bm href="http://www.apple.com/fr/" limg="logos/apple-large.png">Apple</bm>
+			<bm href="http://www.samsung.com/fr/" limg="logos/samsung-large.png">Samsung</bm>
+		</subcat>
+	</cat>
+	<cat title="Code" id="code">
+		<subcat title="Microsoft">
+			<bm href="http://www.microsoft.com/" limg="logos/microsoft-large.png">Microsoft</bm>
+			<bm href="http://msdn.microsoft.com/" limg="logos/msdn-large.png">MSDN</bm>
+			<bm href="https://www.visualstudio.com/" limg="logos/visualstudio-large.png">Visual Studio</bm>
+			<bm href="https://commerce.microsoft.com/" limg="logos/microsoft.png">Microsoft Account</bm>
+			<bm href="http://msdn.microsoft.com/subscriptions/" limg="logos/msdnsubscriptions-large.png">MSDN Subscriptions</bm>
+			<bm href="https://appcenter.ms/" limg="logos/appcenter.png">App Center</bm>
+		</subcat>
+		<subcat title="Windows">
+			<bm href="https://www.microsoft.com/fr-fr/store/apps" limg="logos/winstore.png">Windows Store</bm>
+			<bm href="https://dev.windows.com/fr-fr/overview" limg="logos/windows.png">Dev Center</bm>
+			<bm href="http://www.pinvoke.net/" limg="logos/pinvokenet-large.png">P/Invoke.net</bm>
+		</subcat>
+		<subcat title="Android">
+			<bm href="https://play.google.com/store" limg="logos/googleplay-large.png">Google Play</bm>
+			<bm href="https://play.google.com/apps/publish/" limg="logos/gpconsole.png">Google Play Console</bm>
+			<bm href="https://appengine.google.com/" limg="logos/googleappengine-large.png">App Engine</bm>
+		</subcat>
+		<subcat title="Recherche">
+			<bm href="http://code.google.com/hosting/" limg="logos/googlecode-large.png">Google Code Search</bm>
+			<bm href="http://www.krugle.org/" limg="logos/krugle-large.png">Krugle</bm>
+			<bm href="https://it-ebooks.info/">IT eBooks</bm>
+		</subcat>
+		<subcat title="Kids">
+			<bm href="https://scratch.mit.edu/" limg="logos/scratch-large.png">Scratch</bm>
+			<bm href="https://www.thymio.org/" limg="logos/thymio.png">Thymio</bm>
+			<bm href="http://meetedison.com/" limg="logos/edison.png">Meet Edison</bm>
+		</subcat>
+	</cat>
+	<cat title="Médias" id="medias">
+		<subcat title="AlloCiné">
+			<bm href="http://www.allocine.fr/" iref="http://iphone.allocine.fr/" limg="logos/allocine-large.png">AlloCiné</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=W5965.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=W5965.html" img="logos/allocine.png">UGC VdA</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=P0086.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=P0086.html" img="logos/allocine.png">UGC Lille</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=P0200.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=P0200.html" img="logos/allocine.png">Méliès</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=P0047.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=P0047.html" img="logos/allocine.png">Majestic</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=P0022.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=P0022.html" img="logos/allocine.png">Métropole</bm>
+			<bm href="http://www.allocine.fr/seance/salle_gen_csalle=P0665.html" iref="http://iphone.allocine.fr/salle/seances_gen_csalle=P0665.html" img="logos/allocine.png">Kinépolis</bm>
+		</subcat>
+		<subcat title="Cinéma">
+			<bm href="http://www.ugc.fr/" limg="logos/ugc-large.png">UGC</bm>
+			<bm href="http://www.ugc.fr/cinema.html?id=24" img="logos/ugc.png">VdA</bm>
+			<bm href="http://www.ugc.fr/cinema.html?id=25" img="logos/ugc.png">Lille</bm>
+			<bm href="http://www.lemelies.fr/" limg="logos/lemelies-large.png">Méliès</bm>
+			<bm href="http://www.lemajesticlille.com/" limg="logos/lemajestic-large.png">Majestic</bm>
+			<bm href="http://www.lemetropolelille.com/" limg="logos/lemetropole-large.png">Métropole</bm>
+			<bm href="http://kinepolis.fr/cinemas/kinepolis-lomme" limg="logos/kinepolis-large.png">Kinépolis</bm>
+		</subcat>
+		<subcat title="Télévision">
+			<bm href="http://programme-tv.nouvelobs.com/programme-numericable/" limg="logos/teleobs-large.png">TéléObs</bm>
+			<bm href="http://www.programme-television.org/" iref="http://www.programme-television.org/mobi/programme-tv.php" limg="logos/tele7jours-large.png">Télé 7</bm>
+			<bm href="http://www.numericable.tv/guide-tv" limg="logos/numericable-large.png">TV Numéricâble</bm>
+			<bm href="http://www.tf1.fr" limg="logos/tf1-large.png">TF1</bm>
+			<bm href="http://www.m6replay.fr/" limg="logos/6play-large.png">6play</bm> 
+			<bm href="http://www.francetv.fr/" iref="http://m.francetv.fr/" limg="logos/francetv-large.png">France TV</bm>
+		</subcat>
+		<subcat title="Musique">
+			<bm href="http://www.deezer.com/" limg="logos/deezer-large.png">Deezer</bm>
+			<bm href="http://radios.syxy.com/" limg="logos/radioslive-large.png">Radios Live</bm>
+			<bm href="http://infoconcert.com/" limg="logos/infoconcert-large.png">Info Concert</bm>
+			<bm href="http://radio.funradio.fr/" iref="http://radio.funradio.fr/iphone.html" limg="logos/funradio-large.png">Fun Radio</bm>
+			<bm href="http://radio.rtl.fr/" iref="http://radio.rtl.fr/iphone.html" limg="logos/rtl-large.png">RTL</bm>
+			<bm href="http://radio.rtl2.fr/" iref="http://radio.rtl2.fr/iphone.html" limg="logos/rtl2-large.png">RTL 2</bm>
+			<bm href="http://www.enfoires.fr/" limg="logos/lesenfoires-large.png">Les Enfoirés</bm>
+		</subcat>
+		<subcat title="Media Center">
+			<bm href="http://kodi.tv/" limg="logos/kodi-large.png">Kodi</bm>
+			<bm href="http://www.videohelp.com/" limg="logos/videohelp-large.png">Video Help</bm>
+			<bm href="http://thetvdb.com/" limg="logos/thetvdb-large.png">TV Database</bm>
+			<bm href="http://www.themoviedb.org/" limg="logos/themoviedb-large.png">Movie Database</bm>
+		</subcat>
+		<subcat title="BD">
+			<bm href="http://vidberg.blog.lemonde.fr/" limg="logos/lactuenpatates-large.png">L'actu en patates</bm>
+			<bm href="http://www.martinvidberg.com/" limg="logos/martinvidberg-large.png">Martin Vidberg</bm>
+			<bm href="http://www.bdgest.com/" limg="logos/bdgest-large.png">BD Gest'</bm>
+			<bm href="http://www.bdovore.com/" iref="http://phone.bdovore.com/" limg="logos/bdovore-large.png">BDovore</bm>
+			<bm href="http://www.bd-sanctuary.com/" limg="logos/sanctuary.png">BD Sanctuary</bm>
+			<bm href="http://www.libfly.com/" limg="logos/libfly-large.png">Libfly</bm>
+		</subcat>
+	</cat>
+	<cat title="JVd" id="jeuxvideo">
+		<subcat title="Infos">
+			<bm href="http://www.jeuxvideo.com/" limg="logos/jeuxvideocom-large.png">JeuxVideo.com</bm>
+			<bm href="http://www.gamekult.com/" limg="logos/gamekult-large.png">GameKult</bm>
+			<bm href="http://www.micromania.fr/" limg="logos/micromania-large.png">Micromania</bm>
+			<bm href="http://www.xbox.com/" limg="logos/xbox-large.png">Xbox</bm>
+			<bm href="http://www.jeuxonline.info/" limg="logos/jeuxonline-large.png">Jeux Online</bm>			
+		</subcat>
+		<subcat title="Plateformes">
+			<bm href="http://www.gog.com/" limg="logos/gog.png">GOG</bm>
+			<bm href="https://www.humblebundle.com/" limg="logos/humblebundle.png">Humble Bundle</bm>
+			<bm href="http://store.steampowered.com/" limg="logos/steam.png">Steam</bm>
+			<bm href="http://www.abandonware-france.org/" limg="logos/abandonware.png">Abandonware France</bm>
+			<bm href="https://classicreload.com/" limg="logos/classicreload.png">Classic Reload</bm>
+		</subcat>
+		<subcat title="WoW">
+			<bm href="http://www.wow-europe.com/fr/" limg="logos/wow-large.png">World of Warcraft</bm>
+			<bm href="http://worldofwarcraft.judgehype.com/" iref="http://mobile.judgehype.com/" limg="logos/judgehype-large.png">JudgeHype</bm>
+			<bm href="http://fr.wowhead.com" limg="logos/wowhead-large.png">Wowhead</bm>
+		</subcat>
+		<subcat title="Jeux">
+			<bm href="http://www.lotro.com/fr" limg="logos/lotro-large.png">Le Seigneur des Anneaux Online</bm>
+			<bm href="http://www.swtor.com/fr" limg="logos/swtor-large.png">Star Wars - The Old Republic</bm>
+			<bm href="http://www.dofus.com/fr" limg="logos/dofus-large.png">Dofus</bm>
+			<bm href="https://minecraft.net/" limg="logos/minecraft-large.png">Minecraft</bm>
+		</subcat>
+	</cat>
+	<cat title="JdR" id="jdr">
+		<subcat title="Editeurs FR">
+			<bm href="https://www.black-book-editions.fr/" limg="logos/blackbook.png">Black Book</bm>
+			<bm href="http://www.edgeent.fr/" limg="logos/edge.png">Edge</bm>
+			<bm href="http://www.fantasyflightgames.fr/" limg="logos/ffg.png">FFG</bm>
+			<bm href="https://www.studio-agate.com/fr" limg="logos/agate.png">Studio Agate</bm>
+			<bm href="https://www.dearchitecturart.com/" limg="logos/dearchitecturart.png">De Architecturart</bm>
+			<bm href="https://johndoe-rpg.com/" limg="logos/johndoe.png">John Doe</bm>
+		</subcat>
+		<subcat title="Editeurs FR">
+			<bm href="https://www.arkhane-asylum.fr/" limg="logos/arkhane.png">Arkhane Asylum</bm>
+			<bm href="https://www.letogames.com/" limg="logos/3eoeil.png">3ème Oeil</bm>
+			<bm href="http://www.les12singes.com/" limg="logos/xiisinges.png">XII Singes</bm>
+			<bm href="https://www.deadcrows.net/" limg="logos/deadcrows.png">Deadcrows</bm>
+			<bm href="https://raise-dead.com/" limg="logos/raisedead.png">Raise Dead</bm>
+			<bm href="https://www.laloutreroliste.com/" limg="logos/loutre.png">La Loutre Rôliste</bm>
+		</subcat>
+		<subcat title="Editeurs !FR">
+			<bm href="http://dnd.wizards.com/" limg="logos/dnd.png">D&amp;D</bm>
+			<bm href="https://www.cubicle7games.com/" limg="logos/cubicle7.png">Cubicle 7</bm>
+			<bm href="https://paizo.com/" limg="logos/paizo.png">Paizo</bm>
+			<bm href="https://www.peginc.com/" limg="logos/pinnacle.png">Pinnacle</bm>
+			<bm href="https://www.chaosium.com/" limg="logos/chaosium.png">Chaosium</bm>
+			<bm href="https://riverhorse.eu/" limg="logos/riverhorse.png">River Horse</bm>
+			<bm href="https://www.nosolorol.com/" limg="logos/nosolorol.png">Nosolorol</bm>
+			<bm href="http://wydawnictwogramel.pl/" limg="logos/gramel.png">Gramel</bm>
+		</subcat>
+		<subcat title="Général">
+			<bm href="https://www.casusno.fr/" limg="logos/casusno.png">Casus NO</bm>
+			<bm href="http://www.legrog.org/" limg="logos/grog.png">Le GROG</bm>
+			<bm href="https://lefix.di6dent.fr/" limg="logos/lefix.png">Le Fix</bm>
+			<bm href="https://www.rolis.net/" limg="logos/rolis.png">Rolis</bm>
+		</subcat>
+		<subcat title="Fans">
+			<bm href="https://heros-et-dragons.fr/" limg="logos/heros.png">Héros &amp; Dragons</bm>
+			<bm href="https://co-drs.org/" limg="logos/co.png">Chroniques Oubliées</bm>
+			<bm href="https://www.aidedd.org/" limg="logos/aidedd.png">Aide D&amp;D</bm>
+			<bm href="https://www.donjondudragon.fr/" limg="logos/ddd.png">Donjon du Dragon</bm>
+			<bm href="https://pathfinder-fr.org/" limg="logos/pathfinder.png">Pathfinder-fr</bm>
+			<bm href="http://savage.torgan.net/" limg="logos/savage.png">Savage Torgan</bm>
+		</subcat>
+		<subcat title="Participatif">
+			<bm href="https://www.gameontabletop.com/" limg="logos/gott.png">Game On TableTop</bm>
+			<bm href="https://fr.ulule.com/" limg="logos/ulule.png">Ulule</bm>
+			<bm href="https://www.kickstarter.com/?lang=fr" limg="logos/kickstarter.png">Kickstarter</bm>
+			<bm href="https://www.humblebundle.com/" limg="logos/humblebundle.png">Humble Bundle</bm>
+			<bm href="https://www.bundleofholding.com/">Bundle of Holding</bm>
+		</subcat>
+	</cat>
+	<cat title="J2S" id="j2s">
+		<subcat title="Infos">
+			<bm href="https://www.trictrac.net/" limg="logos/trictrac.png">Tric Trac</bm>
+			<bm href="https://zombicide.com/fr/" limg="logos/zombicide.png">Zombicide</bm>
+		</subcat>
+		<subcat title="Boutiques">
+			<bm href="http://rocambole.fr/" limg="logos/rocambole.png">Rocambole</bm>
+			<bm href="http://www.bazardubizarre.com/" limg="logos/bazar.png">Bazar du Bizarre</bm>
+			<bm href="https://philibertnet.com/fr/" limg="logos/philibert-large.png">Philibert</bm>
+			<bm href="https://www.ludifolie.com/" limg="logos/ludifolie-large.png">Ludifolie</bm>
+			<bm href="https://www.hobby-max.fr/" limg="logos/hobbymax.png">Hobby Max</bm>
+		</subcat>
+		<subcat title="Pokémon">
+			<bm href="https://www.pokecardex.com/" limg="logos/pokecardex.png">Pokécardex</bm>
+		</subcat>
+	</cat>
+	<cat title="Jouets" id="jouets">
+		<subcat title="Jouets">
+			<bm href="http://www.lego.com/fr-fr/" limg="logos/lego-large.png">Lego</bm>
+			<bm href="http://www.playmobil.fr/" limg="logos/playmobil-large.png">Playmobil</bm>
+			<bm href="http://www.brio.fr/" limg="logos/brio-large.png">Brio</bm>
+			<bm href="http://www.meccano.fr/" limg="logos/meccano-large.png">Meccano</bm>
+		</subcat>
+		<subcat title="Magasins">
+			<bm href="http://www.picwic.com/" limg="logos/picwic-large.png">Pic Wic</bm>
+			<bm href="http://www.lagranderecre.fr/" limg="logos/lagranderecre-large.png">La&#160;Grande Récré</bm>
+			<bm href="http://www.joueclub.fr/" limg="logos/joueclub-large.png">JouéClub</bm>
+			<bm href="http://www.eveiletjeux.com/" limg="logos/oxybul-large.png">Oxybul</bm>
+		</subcat>
+		<subcat title="Puzzles">
+			<bm href="http://www.nathan-puzzle.fr/" limg="logos/nathan-large.png">Nathan</bm>
+			<bm href="http://www.ravensburger.com/fr/puzzles/index.html" limg="logos/ravensburgerpuzzle-large.png">Ravensburger</bm>
+			<bm href="http://www.trefl.com/" limg="logos/trefl-large.png">Trefl</bm>
+			<bm href="http://www.rue-des-puzzles.com/" limg="logos/ruedespuzzles-large.png">Rue des puzzles</bm>
+			<bm href="http://www.planet-puzzles.com/" limg="logos/planetpuzzles-large.png">Planet Puzzles</bm>
+		</subcat>
+	</cat>
+	<cat title="Shop" id="shopping">
+		<subcat title="Informatique">
+			<bm href="http://www.pixmania.fr/" limg="logos/pixmania-large.png">Pixmania</bm>
+			<bm href="http://www.mypix.com/" limg="logos/mypix-large.png">MyPix</bm>
+			<bm href="http://www.livrephoto-cewe.fr/" limg="logos/cewe-large.png">Cewe</bm>
+			<bm href="http://www.ldlc.fr/" limg="logos/ldlc-large.png">LDLC</bm>
+			<bm href="http://www.grosbill.com/" limg="logos/grosbill-large.png">GrosBill</bm>
+			<bm href="http://www.materiel.net/" limg="logos/materielnet-large.png">Materiel.net</bm>
+		</subcat>
+		<subcat title="Médias">
+			<bm href="https://www.amazon.fr/" limg="logos/amazon-large.png">Amazon</bm>
+			<bm href="https://www.fnac.com/" limg="logos/fnac.png">fnac</bm>
+			<bm href="https://www.furet.com/" limg="logos/furetdunord-large.png">Furet du Nord</bm>
+			<bm href="http://www.cdiscount.com/" limg="logos/cdiscount-large.png">Cdiscount</bm>
+			<bm href="http://www.rueducommerce.com/" limg="logos/rdc.png">Rue du Commerce</bm>
+			<bm href="http://www.priceminister.com/" limg="logos/priceminister.png">Price Minister</bm>
+		</subcat>
+		<subcat title="Bons plans">
+			<bm href="http://www.ebay.fr/" limg="logos/ebay-large.png">eBay</bm>
+			<bm href="http://www.leboncoin.fr/" iref="http://mobile.leboncoin.fr/" limg="logos/leboncoin-large.png">Le Bon Coin</bm>
+			<bm href="http://www.dealabs.com/" limg="logos/deallabs-large.png">Deal Labs</bm>
+			<bm href="http://www.vente-privee.com/" limg="logos/venteprivee-large.png">Vente Privée</bm>
+		</subcat>
+		<subcat title="Supermarchés">
+			<bm href="http://www.supermarche.tv/" limg="logos/supermarchetv-large.png">Supermarche.tv</bm>
+			<bm href="http://www.carrefour.fr/" limg="logos/carrefour-large.png">Carrefour</bm>
+			<bm href="http://www.monavislerendgratuit.com/" limg="logos/monavislerendgratuit-large.png">Mon Avis Le Rend Gratuit</bm>
+			<bm href="http://www.auchandirect.fr/" limg="logos/auchandirect-large.png">Auchan Direct</bm>
+			<bm href="http://www.houra.fr/" limg="logos/houra-large.png">Houra</bm>
+		</subcat>
+		<subcat title="Miam">
+			<bm href="http://www.pizzahut.fr/" limg="logos/pizzahut-large.png">Pizza Hut</bm>
+			<bm href="http://www.dominos.fr/" limg="logos/dominos-large.png">Domino's Pizza</bm>
+			<bm href="http://www.speedrabbitpizza.com/" limg="logos/speedrabbit-large.png">Speed Rabbit</bm>
+			<bm href="http://www.mcdonalds.fr/" limg="logos/macdonalds.png">Mc Donald's</bm>
+			<bm href="http://www.quick.fr/" limg="logos/quick-large.png">Quick</bm>
+			<bm href="http://www.burgerking.fr/" limg="logos/burgerking-large.png">Burger King</bm>
+		</subcat>
+	</cat>
+	<cat title="Maison" id="maison">
+		<subcat title="Electroménager">
+			<bm href="http://www.darty.com/" limg="logos/darty-large.png">Darty</bm>
+			<bm href="http://www.boulanger.fr/" limg="logos/boulanger-large.png">Boulanger</bm>
+			<bm href="http://www.envienord.fr/" limg="logos/envienord-large.png">Envie Nord</bm>
+		</subcat>
+		<subcat title="Meubles">
+			<bm href="http://www.conforama.fr/" limg="logos/conforama-large.png">Conforama</bm>
+			<bm href="http://www.ikea.fr/" limg="logos/ikea-large.png">Ikea</bm>
+			<bm href="http://www.fly.fr/" limg="logos/fly-large.png">Fly</bm>
+			<bm href="http://www.but.fr/" limg="logos/but.png">But</bm>
+			<bm href="http://www.meublesatlas.com/" limg="logos/atlas-large.png">Meubles Atlas</bm>
+		</subcat>
+		<subcat title="Bricolage">
+			<bm href="http://www.castorama.fr/" limg="logos/castorama-large.png">Castorama</bm>
+			<bm href="http://www.leroymerlin.fr/" limg="logos/leroymerlin-large.png">Leroy Merlin</bm>
+			<bm href="http://www.bricodepot.fr/" limg="logos/bricodepot-large.png">Brico Dépôt</bm>
+		</subcat>
+		<subcat title="Cuisine, SdB, ...">
+			<bm href="http://www.lapeyre.fr/" limg="logos/lapeyre-large.png">Lapeyre</bm>
+			<bm href="http://www.but-cuisines.fr/" limg="logos/but.png">BUT Cuisines</bm>
+			<bm href="http://www.mobalpa.com/" limg="logos/mobalpa-large.png">Mobalpa</bm>
+			<bm href="http://www.cuisines-schmidt.com/" limg="logos/schmidt-large.png">Cuisines Schmidt</bm>
+			<bm href="http://www.hygena.fr/" limg="logos/hygena-large.png">Hygena</bm>
+			<bm href="http://www.cuisinella.com/" limg="logos/cuisinella-large.png">Cuisinella</bm>
+		</subcat>
+		<subcat title="Sols">
+			<bm href="http://www.saint-maclou.com/" limg="logos/saintmaclou-large.png">Saint Maclou</bm>
+			<bm href="http://www.mondialmoquette.fr/" limg="logos/mondialmoquette-large.png">Mondial Moquette</bm>
+		</subcat>
+	</cat>
+	<cat title="Monde" id="monde">
+		<subcat title="Voyages">
+			<bm href="http://www.disneylandparis.fr/" limg="logos/disneylandparis-large.png">Disneyland Paris</bm>
+			<bm href="http://voyages-sncf.com/" iref="http://voyages-sncf.mobi/" limg="logos/voyagessncf-large.png">Voyages SNCF</bm>
+			<bm href="http://www.centerparcs.fr/" limg="logos/centerparcs-large.png">Center Parcs</bm>
+			<bm href="http://www.opodo.fr/" limg="logos/opodo-large.png">Opodo</bm>
+			<bm href="http://www.lastminute.fr/" limg="logos/lastminute-large.png">Last Minute</bm>
+			<bm href="http://www.zevisit.com/" limg="logos/zevisit-large.png">Ze Visit</bm>
+		</subcat>
+		<subcat title="Transport">
+			<bm href="http://maps.google.fr/" limg="logos/google-maps.png">Google Maps</bm>
+			<bm href="http://www.openstreetmap.org/" limg="logos/openstreetmap-large.png">OpenStreetMap</bm>
+			<bm href="http://www.bison-fute.equipement.gouv.fr/" limg="logos/bisonfute-large.png">Bison Futé</bm>
+			<bm href="http://www.prix-carburants.gouv.fr/">Prix des carburants</bm>
+			<bm href="http://www.transpole.fr/" iref="http://www.transpole.mobi/" limg="logos/transpole-large.png">Transpole</bm>
+		</subcat>
+		<subcat title="Météo">
+			<bm href="http://www.meteo.fr/" limg="logos/meteofrance-large.png">Météo France</bm>
+			<bm href="http://fr.weather.com/10jours/FRXX0052:1:FR" limg="logos/weatherchannel-large.png">Weather.com Lille</bm>
+			<bm href="http://www.lachainemeteo.com/" limg="logos/lachainemeteo-large.png">La Chaine Météo</bm>
+			<bm href="http://www.previmeteo.com/" iref="http://iphone.previmeteo.mobi/" limg="logos/previmeteo-large.png">PréviMétéo</bm>
+			<bm href="http://www.meteo24.fr/" limg="logos/meteo24-large.png">Météo 24</bm>
+		</subcat>
+	</cat>
+	<cat title="Lille" id="lille">
+		<subcat title="Lille">
+			<bm href="http://www.lille.fr/" limg="logos/lille-large.png">Lille</bm>
+			<bm href="http://www.lechti.com/" limg="logos/lechti-large.png">Le Ch'ti</bm>
+		</subcat>
+		<subcat title="Infos">
+			<bm href="http://www.lavoixdunord.fr/region/lille-et-ses-environs" limg="logos/lavoixdunord-large.png">Lille</bm>
+			<bm href="http://www.20minutes.fr/lille/" limg="logos/20minutes-large.png">20 minutes</bm>
+			<bm href="http://www.metronews.fr/lille/" limg="logos/metronews-large.png">Metro News</bm>
+			<bm href="http://www.grandlille.tv/" limg="logos/grandlilletv-large.png">Grand Lille TV</bm>
+		</subcat>
+		<subcat title="Spectacles">
+			<bm href="http://www.lillegrandpalais.com/" limg="logos/lillegrandpalais-large.png">Lille Grand Palais</bm>
+			<bm href="http://www.le-splendid.com/" limg="logos/lesplendid-large.png">Splendid</bm>
+		</subcat>
+		<subcat title="Ecoles">
+			<bm href="https://lille.espace-famille.net/" limg="logos/espacefamille-large.png">Espace Famille (Cantine)</bm>
+			<bm href="http://www.ecolesaintlouis.eu/">Ecole Saint-Louis</bm>
+			<bm href="http://www.stjosephlm.fr/">Collège Saint-Joseph</bm>
+			<bm href="https://www.ecoledirecte.com/">Ecole directe</bm>
+		</subcat>
+		<subcat title="Divers">
+			<bm href="http://www.esterra.fr/" limg="logos/esterra-large.png">Esterra</bm>
+			<bm href="http://www.encombrantssurrendez-vous.com/">Encombrants</bm>
+		</subcat>
+	</cat>
+	<cat title="Perso" id="perso">
+		<subcat title="Niouxeries">
+			<bm href="http://nioux.lescigales.org/shaarli/" limg="logos/shaarli-large.png">Bookmarks Shaarli</bm>
+			<bm href="https://onedrive.live.com/redir?resid=CB5D1A7FDAD638BF!136619&amp;authkey=!AE70rT3tUyv_Zdg&amp;ithint=file%2cxlsx" img="logos/excel.png">Collections</bm>
+	        <bm href="https://nioubus.appspot.com/" img="logos/nioubus.png">AppSpot</bm>
+	        <bm href="https://github.com/Nioux/AideDeJeu" img="logos/nioubus.png">GitHub</bm>
+		</subcat>
+		<subcat title="Haches &amp; Dés">
+	        <bm href="https://github.com/Nioux/AideDeJeu" limg="logos/github.png">GitHub</bm>
+	        <bm href="https://fr.tipeee.com/nioux" limg="logos/tipeee.png">Tipeee</bm>
+		</subcat>
+		<subcat title="Famille">
+			<bm href="http://maniezjp.fr/">Jean-Paul</bm>
+			<bm href="http://michdu62122.skyrock.com/">Michel</bm>
+		</subcat>
+	</cat>
+	<cat title="Papiers" id="papiers">
+		<subcat title="Administration">
+			<bm href="http://www.service-public.fr/" limg="logos/servicepublic-large.png">Service Public</bm>
+			<bm href="http://www.impots.gouv.fr/" limg="logos/impotsgouvfr-large.png">Impôts</bm>
+			<bm href="http://www.pole-emploi.fr/" limg="logos/poleemploi-large.png">Pôle Emploi</bm>
+		</subcat>
+		<subcat title="Santé">
+			<bm href="https://assure.ameli.fr/" limg="logos/ameli-large.png">Assurance Maladie</bm>
+			<bm href="http://www.caf.fr/" limg="logos/caf-large.png">CAF</bm>
+			<bm href="http://www.vivinter.fr/" limg="logos/vivinter.png">Vivinter</bm>
+			<bm href="https://www.mcommemutuelle.com/" limg="logos/mcomme.png">M comme Mutuelle</bm>
+		</subcat>
+		<subcat title="Banques">
+			<bm href="https://www.labanquepostale.fr/" iref="https://www.labanquepostale.mobi/" limg="logos/labanquepostale.png">La&#160;Banque Postale</bm>
+			<bm href="https://www.credit-du-nord.fr/" limg="logos/creditdunord-large.png">Crédit du Nord</bm>
+			<bm href="https://www.carrefour-banque.fr/espace-client/connexion?productType=credit" limg="logos/carrefourbanque-large.png">Carrefour</bm>
+			<bm href="https://www.esalia.com/" limg="logos/societegenerale-large.png">Société Générale</bm>
+			<bm href="https://www.maaf.fr/" limg="logos/maaf.png">MAAF</bm>
+			<bm href="https://www.paypal.com/" limg="logos/paypal.png">PayPal</bm>
+		</subcat>
+		<subcat title="Factures">
+			<bm href="https://particulier.edf.fr/" limg="logos/edf-large.png">EDF Bleu Ciel</bm>
+			<bm href="https://particuliers.engie.fr/" limg="logos/engie.png">Engie</bm>
+			<bm href="https://espaceclient.engie-homeservices.fr/" limg="logos/engiehs.png">Engie Home Services</bm>
+			<bm href="https://www.mel-ileo.fr/" limg="logos/ileo.png">Iléo</bm>
+			<bm href="http://www.fdj.fr/" limg="logos/fdj-large.png">FDJeux</bm>
+		</subcat>
+		<subcat title="Télécom">
+			<bm href="http://www.orange.fr/" limg="logos/orange-large.png">Orange</bm>
+			<bm href="http://www.numericable.fr/" limg="logos/numericable-large.png">Numericable</bm>
+			<bm href="http://www.coliposte.com/" limg="logos/colissimo-large.png">Colissimo</bm>
+			<bm href="http://www.pagesjaunes.fr/" iref="http://m.pagesjaunes.fr/" limg="logos/pagesjaunes-large.png">Pages Jaunes</bm>
+		</subcat>
+		<subcat title="Coffres">
+			<bm href="https://secure.digiposte.fr/identification" limg="logos/digiposte-large.png">Digiposte</bm>
+			<bm href="http://www.securibox.fr/" limg="logos/securibox-large.png">Sécuribox</bm>
+			<bm href="https://nioux59.mycozy.cloud/" >My Cozy</bm>
+			<bm href="http://weboob.org/" limg="logos/weboob.png">Weboob</bm>
+		</subcat>
+	</cat>
+</bms>
