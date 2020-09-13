@@ -2,4 +2,4 @@
 
 | Google+ | Live | Google | MSN | New | Social |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|[GMail](https://mail.google.com/mail/?tab=wm#inbox)|
+|[![GMail](logos/gmail-large.png)](https://mail.google.com/mail/?tab=wm#inbox)|
