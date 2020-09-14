@@ -29,7 +29,7 @@ try
     WScript.Echo (html);
 
 	var fso = new ActiveXObject("Scripting.FileSystemObject");
-	var file = fso.CreateTextFile(oArgs(0) + ".html",true);
+	var file = fso.CreateTextFile(oArgs(0) + ".html",true,true);
 	file.Write(html);
 	file.Close();
 }
