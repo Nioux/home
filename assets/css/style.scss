@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-ul { display: inline-block; }
+ul { display: flex; }
 
-table { display: inline-block; }
+table { display: flex; }
