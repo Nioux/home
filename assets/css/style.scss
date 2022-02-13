@@ -3,4 +3,6 @@
 
 @import "{{ site.theme }}";
 
-ul { display: inline }
+ul { display: inline-block; }
+
+table { display: inline-block; }
