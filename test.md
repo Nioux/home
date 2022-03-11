@@ -15,9 +15,7 @@ iNioux
 * [Perso](#perso)
 * [Papiers](#papiers)
 
-<div>
-  
-<div markdown="1" style="display:block; float:left">
+<span markdown="1" style="display:block; float:left">
   
 ### Google+
 * [![GMail](logos/gmail-large.png)](https://mail.google.com/mail/?tab=wm#inbox)
@@ -28,9 +26,9 @@ iNioux
 * [![Picasa](logos/picasa-large.png)](https://picasaweb.google.fr/home)
 * [![Keep](logos/keep.png)](https://keep.google.com/)
   
-</div>
+</span>
 
-<div markdown="1" style="display:block; float:left">
+<span markdown="1" style="display:block; float:left">
   
 ### Live
 * [![Outlook](logos/outlook-large.png)](https://mail.live.com/)
@@ -41,9 +39,9 @@ iNioux
 * [![TODO](logos/todo.png)](https://to-do.live.com/tasks/)
 * [![Wunderlist](logos/wunderlist.png)](https://wunderlist.com/)
   
-</div>
+</span>
 
-<div markdown="1" style="display:block; float:left">
+<span markdown="1" style="display:block; float:left">
   
 ### Google
 * [![Recherche](logos/google-large.png)](https://www.google.fr/)
@@ -51,9 +49,9 @@ iNioux
 * [![Maps](logos/google-maps.png)](https://maps.google.fr/)
 * [![YouTube](logos/youtube.png)](https://www.youtube.com/)
   
-</div>
+</span>
 
-<div markdown="1" style="display:block; float:left">
+<span markdown="1" style="display:block; float:left">
   
 ### Bing / MSN
 * [![Recherche](logos/bing-large.png)](https://www.bing.com/)
@@ -61,9 +59,8 @@ iNioux
 * [![MSN](logos/msn-large.png)](https://www.msn.com/)
 * [![Maps](logos/bing-maps.png)](https://www.bing.com/maps/)
   
-</div>
+</span>
 
-</div>
   
 ### News
 * [![20 minutes](logos/20minutes-large.png)](https://www.20minutes.fr/)
