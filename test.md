@@ -17,7 +17,7 @@ iNioux
 
 <div>
   
-<div style="display:block; float:left">
+<div markdown="1" style="display:block; float:left">
   
 ### Google+
 * [![GMail](logos/gmail-large.png)](https://mail.google.com/mail/?tab=wm#inbox)
@@ -30,7 +30,7 @@ iNioux
   
 </div>
 
-<div style="display:block; float:left">
+<div markdown="1" style="display:block; float:left">
   
 ### Live
 * [![Outlook](logos/outlook-large.png)](https://mail.live.com/)
@@ -43,7 +43,7 @@ iNioux
   
 </div>
 
-<div style="display:block; float:left">
+<div markdown="1" style="display:block; float:left">
   
 ### Google
 * [![Recherche](logos/google-large.png)](https://www.google.fr/)
@@ -53,7 +53,7 @@ iNioux
   
 </div>
 
-<div style="display:block; float:left">
+<div markdown="1" style="display:block; float:left">
   
 ### Bing / MSN
 * [![Recherche](logos/bing-large.png)](https://www.bing.com/)
