@@ -23,6 +23,7 @@ iNioux
 * [![Photos](logos/gphotos.png)](https://photos.google.com/)
 * [![Picasa](logos/picasa-large.png)](https://picasaweb.google.fr/home)
 * [![Keep](logos/keep.png)](https://keep.google.com/)
+
 ### Live
 * [![Outlook](logos/outlook-large.png)](https://mail.live.com/)
 * [![OneDrive](logos/onedrive-large.png)](https://onedrive.live.com/)
@@ -31,16 +32,19 @@ iNioux
 * [![Family Safety](logos/familysafety.png)](https://familysafety.microsoft.com/)
 * [![TODO](logos/todo.png)](https://to-do.live.com/tasks/)
 * [![Wunderlist](logos/wunderlist.png)](https://wunderlist.com/)
+
 ### Google
 * [![Recherche](logos/google-large.png)](https://www.google.fr/)
 * [![News](logos/google-news.png)](https://news.google.fr/)
 * [![Maps](logos/google-maps.png)](https://maps.google.fr/)
 * [![YouTube](logos/youtube.png)](https://www.youtube.com/)
+
 ### Bing / MSN
 * [![Recherche](logos/bing-large.png)](https://www.bing.com/)
 * [![News](logos/bing-news.png)](https://www.bing.com/news/)
 * [![MSN](logos/msn-large.png)](https://www.msn.com/)
 * [![Maps](logos/bing-maps.png)](https://www.bing.com/maps/)
+
 ### News
 * [![20 minutes](logos/20minutes-large.png)](https://www.20minutes.fr/)
 * [![Le Monde](logos/lemonde-large.png)](https://www.lemonde.fr/)
@@ -48,18 +52,21 @@ iNioux
 * [![Le Figaro](logos/lefigaro-large.png)](http://www.lefigaro.fr/)
 * [![Marianne](logos/marianne-large.png)](https://www.marianne.net/)
 * [![La Voix du Nord](logos/lavoixdunord-large.png)](https://www.lavoixdunord.fr/)
+
 ### Social
 * [![Facebook ](logos/fcbk-large.png)](https://www.facebook.com/)
 * [![Twitter ](logos/twttr-large.png)](https://twitter.com/)
 * [![Linked-in ](logos/lnkdn-large.png)](https://www.linkedin.com/)
 * [![Copains d'Avant](logos/copainsdavant-large.png)](https://copainsdavant.linternaute.com/)
 * [![Vie de merde](logos/vdm-large.png)](https://www.viedemerde.fr/)
+
 ### News
 * [![01net.com](logos/01net-large.png)](https://www.01net.com/)
 * [![ZDnet.fr](logos/zdnet-large.png)](https://www.zdnet.fr/)
 * [![Clubic](logos/clubic-large.png)](https://www.clubic.com/)
 * [![Next Inpact](logos/nextinpact-large.png)](https://www.nextinpact.com/)
 * [![Numérama](logos/numerama-large.png)](https://www.numerama.com/)
+
 ### Téléchargements
 * [![01net](logos/01net-large.png)](https://www.01net.com/telecharger/)
 * [![ZDNet](logos/zdnet-large.png)](https://www.zdnet.fr/telecharger/windows/)
