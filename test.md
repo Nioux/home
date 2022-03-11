@@ -15,7 +15,7 @@ iNioux
 * [Perso](#perso)
 * [Papiers](#papiers)
 
-### Google+
+* ### Google+
 * [![GMail](logos/gmail-large.png)](https://mail.google.com/mail/?tab=wm#inbox)
 * [![Drive](logos/google-drive.png)](https://drive.google.com/)
 * [![Agenda](logos/google-calendar.png)](https://www.google.com/calendar/)
@@ -24,7 +24,8 @@ iNioux
 * [![Picasa](logos/picasa-large.png)](https://picasaweb.google.fr/home)
 * [![Keep](logos/keep.png)](https://keep.google.com/)
 
-### Live
+
+* ### Live
 * [![Outlook](logos/outlook-large.png)](https://mail.live.com/)
 * [![OneDrive](logos/onedrive-large.png)](https://onedrive.live.com/)
 * [![Calendar](logos/live-calendar.png)](https://calendar.live.com/)
@@ -33,13 +34,15 @@ iNioux
 * [![TODO](logos/todo.png)](https://to-do.live.com/tasks/)
 * [![Wunderlist](logos/wunderlist.png)](https://wunderlist.com/)
 
-### Google
+
+* ### Google
 * [![Recherche](logos/google-large.png)](https://www.google.fr/)
 * [![News](logos/google-news.png)](https://news.google.fr/)
 * [![Maps](logos/google-maps.png)](https://maps.google.fr/)
 * [![YouTube](logos/youtube.png)](https://www.youtube.com/)
 
-### Bing / MSN
+
+* ### Bing / MSN
 * [![Recherche](logos/bing-large.png)](https://www.bing.com/)
 * [![News](logos/bing-news.png)](https://www.bing.com/news/)
 * [![MSN](logos/msn-large.png)](https://www.msn.com/)
