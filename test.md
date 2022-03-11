@@ -15,6 +15,8 @@ iNioux
 * [Perso](#perso)
 * [Papiers](#papiers)
 
+<div>
+  
 <div style="display:block; float:left">
   
 ### Google+
@@ -61,6 +63,8 @@ iNioux
   
 </div>
 
+</div>
+  
 ### News
 * [![20 minutes](logos/20minutes-large.png)](https://www.20minutes.fr/)
 * [![Le Monde](logos/lemonde-large.png)](https://www.lemonde.fr/)
