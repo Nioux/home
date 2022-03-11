@@ -15,7 +15,8 @@ iNioux
 * [Perso](#perso)
 * [Papiers](#papiers)
 
-* ### Google+
+<div style="display:block">
+### Google+
 * [![GMail](logos/gmail-large.png)](https://mail.google.com/mail/?tab=wm#inbox)
 * [![Drive](logos/google-drive.png)](https://drive.google.com/)
 * [![Agenda](logos/google-calendar.png)](https://www.google.com/calendar/)
@@ -23,9 +24,10 @@ iNioux
 * [![Photos](logos/gphotos.png)](https://photos.google.com/)
 * [![Picasa](logos/picasa-large.png)](https://picasaweb.google.fr/home)
 * [![Keep](logos/keep.png)](https://keep.google.com/)
+</div>
 
-
-* ### Live
+<div style="display:block">
+### Live
 * [![Outlook](logos/outlook-large.png)](https://mail.live.com/)
 * [![OneDrive](logos/onedrive-large.png)](https://onedrive.live.com/)
 * [![Calendar](logos/live-calendar.png)](https://calendar.live.com/)
@@ -33,20 +35,23 @@ iNioux
 * [![Family Safety](logos/familysafety.png)](https://familysafety.microsoft.com/)
 * [![TODO](logos/todo.png)](https://to-do.live.com/tasks/)
 * [![Wunderlist](logos/wunderlist.png)](https://wunderlist.com/)
+</div>
 
-
-* ### Google
+<div style="display:block">
+### Google
 * [![Recherche](logos/google-large.png)](https://www.google.fr/)
 * [![News](logos/google-news.png)](https://news.google.fr/)
 * [![Maps](logos/google-maps.png)](https://maps.google.fr/)
 * [![YouTube](logos/youtube.png)](https://www.youtube.com/)
+</div>
 
-
-* ### Bing / MSN
+<div style="display:block">
+### Bing / MSN
 * [![Recherche](logos/bing-large.png)](https://www.bing.com/)
 * [![News](logos/bing-news.png)](https://www.bing.com/news/)
 * [![MSN](logos/msn-large.png)](https://www.msn.com/)
 * [![Maps](logos/bing-maps.png)](https://www.bing.com/maps/)
+</div>
 
 ### News
 * [![20 minutes](logos/20minutes-large.png)](https://www.20minutes.fr/)
