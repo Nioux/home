@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iNioux</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0 1em 2em;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* Menu */
+    .top-nav {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      padding: 0.5em 1em;
+      border-bottom: 1px solid #ccc;
+      z-index: 10;
+    }
+
+    .top-nav a {
+      margin-right: 1em;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Supergroupes */
+    .supergroup-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+      margin-top: 2em;
+      text-align: center;
+    }
+
+    .supergroup {
+      /* min-width: 300px; */
+      /* flex: 1 1 300px; */
+      text-align: center;
+    }
+
+    .supergroup h1 {
+      font-size: 1.4em;
+      margin-bottom: 0.5em;
+    }
+
+    /* Groupes */
+    .group-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .group {
+      background: #f0f0f0;
+      border-radius: 8px;
+      padding: 1em;
+      /* flex: 1 1 100px; */
+      /* max-width: 300px; */
+      justify-content: center;
+      text-align: center;
+    }
+
+    .group h2 {
+      margin-top: 0;
+      font-size: 1.1em;
+    }
+
+    .bookmark {
+      display: flex;
+      align-items: center;
+      margin: 0.5em 0;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .bookmark img {
+      height: 48px;
+      margin-right: 8px;
+    }
+
+    /* Mode clair */
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .group {
+      background-color: #f0f0f0;
+    }
+
+    .top-nav {
+      background-color: #ffffff;
+    }
+
+    a {
+      color: #333;
+    }
+
+    /* Mode sombre */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #f0f0f0;
+      }
+
+      .group {
+        background-color: #1e1e1e;
+      }
+
+      .top-nav {
+        background-color: #1a1a1a;
+        border-bottom: 1px solid #333;
+      }
+
+      a {
+        color: #bb86fc;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="top-nav" id="nav"></nav>
+  <div class="supergroup-container" id="supergroups"></div>
+
+  <script>
+    const data = {
+      "Home": {
+        "Google": [
+          { title: "Google", url: "https://www.google.fr", _image:"" },
+          { title: "Gmail", url: "https://mail.google.com", image:"logos/gmail.svg" },
+          { title: "Drive", url: "https://drive.google.com/", image:"logos/google-drive.svg" },
+          { title: "Photos", url: "https://photos.google.com/", _image:"logos/google-photos.svg" },
+          { title: "Contacts", url: "https://contacts.google.com/", image:"logos/google-contacts.svg" },
+          { title: "Calendar", url: "https://calendar.google.com/", image:"logos/google-calendar.svg" },
+          { title: "Keep", url: "https://keep.google.com/", image:"logos/google-keep.svg" },
+        ],
+        "Microsoft": [
+          { title: "Bing", url: "https://www.bing.com/", _image:"" },
+          { title: "Outlook", url: "https://outlook.live.com", image:"logos/outlook.svg" },
+          { title: "OneDrive", url: "https://onedrive.live.com", image:"logos/onedrive.svg" },
+          { title: "Contacts", url: "https://contacts.live.com", image:"logos/microsoft-contacts.svg" },
+          { title: "Calendar", url: "https://calendar.live.com", image:"logos/microsoft-calendar.svg"},
+          { title: "Family Safety", url: "https://account.microsoft.com/family/", image:"logos/family-safety.png" },
+          { title: "To Do", url: "https://to-do.live.com/", },
+        ],
+        "Amazon": [
+          { title: "Amazon", url: "https://www.amazon.fr/", _image:"" },
+          { title: "Prime Video", url: "https://www.primevideo.com/", _image:"" },
+          { title: "Prime Gaming", url: "https://gaming.amazon.com/", _image:"" },
+        ],
+        "News": [
+          { title: "20 minutes", url: "https://www.20minutes.fr/", _image:"" },
+          { title: "Le Monde", url: "https://www.lemonde.fr/", _image:"" },
+          { title: "Libération", url: "https://www.liberation.fr/", _image:"" },
+          { title: "Le Figaro", url: "http://www.lefigaro.fr/", _image:"" },
+          { title: "Marianne", url: "https://www.marianne.net/", _image:"" },
+          { title: "La Voix du Nord", url: "https://www.lavoixdunord.fr/", _image:"" },
+          { title: "Ouest France", url: "https://www.ouest-france.fr/", _image:"" },
+          { title: "Cafeyn", url: "https://www.cafeyn.co/", _image:"" },
+        ],
+        "Social": [
+          { title: "Facebook", url: "https://facebook.com" },
+          { title: "X", url: "https://x.com" },
+          { title: "Linked In", url: "https://linkedin.com" }
+        ],
+      },
+      "Net": {
+        "Recherche": [
+          { title: "Alternative To", url: "https://alternativeto.net/", _image:"" },
+          { title: "Framasoft", url: "https://www.framasoft.net/", _image:"" },
+          { title: "Internet Archive", url: "https://archive.org/", _image:"" },
+          { title: "Duck Duck Go", url: "https://duckduckgo.com/", _image:"" },
+          { title: "Qwant", url: "https://www.qwant.com/", _image:"" },
+          { title: "Qwant Junior", url: "https://www.qwantjunior.com/", _image:"" },
+          { title: "Xooloo", url: "https://xooloo.fr/", _image:"" },
+        ],
+        "Host": [
+          { title: "Gandi", url: "https://www.gandi.net/", _image:"" },
+          { title: "OVH Cloud", url: "https://www.ovhcloud.com/", _image:"" },
+          { title: "OwnCloud", url: "https://owncloud.com/", _image:"" },
+          { title: "Cozy Cloud / Twake Workplace", url: "https://cozy.io/", _image:"" },
+          { title: "Woob", url: "https://woob.tech/", _image:"" },
+        ],
+        "Sécurité": [
+          { title: "HoaxBuster", url: "http://www.hoaxbuster.com/", _image:"" },
+          { title: "KeePass", url: "https://keepass.info/", _image:"" },
+          { title: "TrueCrypt", url: "http://www.truecrypt.org/", _image:"" },
+          { title: "VeraCrypt", url: "https://veracrypt.io/", _image:"" },
+        ],
+        "Encyclopédies": [
+          { title: "Wikipedia", url: "https://fr.wikipedia.org/", _image:"" },
+          { title: "Vikidia", url: "https://fr.vikidia.org/", _image:"" },
+          { title: "Europeana", url: "https://www.europeana.eu/fr", _image:"" },
+        ],
+      },
+      "Dev": {
+        "News": [
+          { title: "Mini Machines", url: "https://www.minimachines.net/" },
+          { title: "Les Numériques", url: "https://www.lesnumeriques.com/" },
+          { title: "XDA Developers", url: "https://www.xda-developers.com/" },
+          { title: "Lineage OS", url: "https://lineageos.org/" },
+        ],
+        "Opérateurs": [
+          { title: "Orange", url: "https://www.orange.fr/", image:"logos/orange.png" },
+          { title: "Sosh", url: "https://www.sosh.fr/", image:"logos/sosh.svg" },
+          { title: "Free", url: "http://www.free.fr/", image:"logos/free.svg" },
+          { title: "Free Mobile", url: "http://mobile.free.fr/", _image:"" },
+        ],
+        "Constructeurs": [
+          { title: "Apple", url: "http://www.apple.com/fr/", _image:"" },
+          { title: "Samsung", url: "http://www.samsung.com/", _image:"" },
+          { title: "Lenovo", url: "http://www.lenovo.com/", _image:"" },
+          { title: "Dell", url: "http://www.dell.com/", _image:"" },
+          { title: "Acer", url: "http://www.acer.com/", _image:"" },
+          { title: "Asus", url: "https://www.asus.com/fr/", _image:"" },
+          { title: "HP", url: "http://www.hp.com/", _image:"" },
+        ],
+      },
+      "Code": {
+        "Windows": [
+          { title: "Microsoft", url: "http://www.microsoft.com/", _image:"" },
+          { title: "Learn", url: "https://learn.microsoft.com/", _image:"" },
+          { title: "Visual Studio", url: "https://visualstudio.microsoft.com/", _image:"" },
+          { title: "App Center", url: "https://appcenter.ms/", _image:"" },
+          { title: "Store", url: "https://apps.microsoft.com/", _image:"" },
+          { title: "Windows Dev Center", url: "https://developer.microsoft.com/en-us/windows/", _image:"" },
+          { title: "Developer", url: "https://developer.microsoft.com/", _image:"" },
+          { title: "PInvoke", url: "http://www.pinvoke.net/", _image:"" },
+          
+        ],
+        "Android": [
+          { title: "Google Play", url: "https://play.google.com/store", _image:"" },
+          { title: "Google Play Console", url: "https://play.google.com/console/", _image:"" },
+          { title: "App Engine", url: "https://console.cloud.google.com/appengine", _image:"" },
+        ],
+        "Apple": [
+          { title: "Apple Developer", url: "https://developer.apple.com/", _image:"" },
+          { title: "App Store Connect", url: "https://appstoreconnect.apple.com/", _image:"" },
+        ],        
+      },
+      "Média": {
+        "Cinéma": [
+          { title: "Allociné", url: "http://www.allocine.fr/", image:"logos/allocine.svg" },
+          { title: "UGC", url: "http://www.ugc.fr/", image:"logos/ugc.png" },
+          { title: "Le Méliès", url: "https://larose.fr/cinema-le-melies", _image:"" },
+          { title: "Kinépolis", url: "http://kinepolis.fr/", image:"logos/kinepolis.png" },
+          { title: "Le Pont des Arts", url: "https://lepontdesarts-cinema.fr/", image:"logos/cinema-pont-des-arts.png" },
+          { title: "Cinéville Laval", url: "https://laval.cineville.fr/", _image:"" },
+        ],
+        "TV": [
+        ],
+        "Musique": [
+        ],
+        "BD": [
+        ],
+      },
+      "JVd": {
+      },
+      "JdRP": {
+        "JdR": [
+          { title: "BBE", url: "https://www.black-book-editions.fr/", image:"logos/bbe.png" },
+        ],
+      },
+      "JdRA": {
+      },
+      "Jouets": {
+      },
+      "Shop": {
+      },
+      "Maison": {
+      },
+      "Monde": {
+      },
+      "Lille": {
+        "Scolaire": [
+          { title: "FCPE", url: "https://www.fcpepasteurlille.fr/", _image:"" },
+        ],
+      },
+      "Perso": {
+      },
+      "Papiers": {
+      },
+    };
+
+    const nav = document.getElementById("nav");
+    const supergroupsContainer = document.getElementById("supergroups");
+
+    for (const [supergroupName, groups] of Object.entries(data)) {
+      // Ajouter au menu de navigation
+      const anchorLink = document.createElement("a");
+      anchorLink.href = `#${supergroupName}`;
+      anchorLink.textContent = supergroupName;
+      nav.appendChild(anchorLink);
+
+      // Créer bloc supergroupe
+      const supergroupDiv = document.createElement("div");
+      supergroupDiv.className = "supergroup";
+      supergroupDiv.id = supergroupName;
+      supergroupDiv.innerHTML = `<h1>${supergroupName}</h1>`;
+
+      const groupContainer = document.createElement("div");
+      groupContainer.className = "group-container";
+
+      for (const [groupName, links] of Object.entries(groups)) {
+        const groupDiv = document.createElement("div");
+        groupDiv.className = "group";
+        groupDiv.innerHTML = `<h2>${groupName}</h2>`;
+
+        links.forEach(link => {
+          const div = document.createElement("div");
+          div.className = "bookmark";
+          if('image' in link) {
+            div.innerHTML = `
+              <a href="${link.url}" target="_blank" alt="${link.title}"><img src="${link.image}" alt="logo ${link.title}" title="${link.title}" /></a>
+            `;
+          } else {
+            const domain = new URL(link.url).hostname;
+            div.innerHTML = `
+              <a href="${link.url}" target="_blank" alt="${link.title}"><img height="48" src="https://www.google.com/s2/favicons?sz=64&domain=${domain}" alt="favicon ${link.title}" title="${link.title}" /></a>
+            `;
+          }
+          groupDiv.appendChild(div);
+        });
+
+        groupContainer.appendChild(groupDiv);
+      }
+
+      supergroupDiv.appendChild(groupContainer);
+      supergroupsContainer.appendChild(supergroupDiv);
+    }
+  </script>
+</body>
+</html>
